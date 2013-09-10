@@ -9,3 +9,5 @@ chef_server_url          "https://api.opscode.com/organizations/i4m3v4n"
 cache_type               'BasicFile'
 cache_options( :path => "#{ENV['HOME']}/.chef/checksums" )
 cookbook_path            ["#{current_dir}/../cookbooks"]
+
+knife[:editor] = "/usr/bin/vim"
